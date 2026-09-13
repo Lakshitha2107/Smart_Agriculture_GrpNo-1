@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farm Map</title>
+<link rel="stylesheet" href="layout.css">
+</head>
+
+<style>
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 50px;
+    padding: 15px;
+    border-top: 1px solid #357a38;
+    background-color: #d8f7de;
+    height: 200px;
+}
+</style>
+
+<body>
+
+<h1 class="title">Farm Map</h1>
+
+<div class="container">
+
+<nav class="sidebar">
+<a href="#">Home</a>
+<a href="#">Farm Dashboard</a>
+<a href="#">Irrigation Advisory</a>
+<a href="#">Sensor Data</a>
+<a href="#">Contact</a>
+</nav>
+
+<img src="farmmap.png"
+alt="Farm"
+usemap="#farm_map"
+width="600"
+height="400">
+
+<map name="farm_map">
+<area shape="rect"
+coords="0,0,400,200"
+href="plota.html"
+alt="Plot A">
+
+<area shape="rect"
+coords="600,0,400,200"
+href="plotb.html"
+alt="Plot B">
+
+<area shape="rect"
+coords="400,0,800,200"
+href="plotc.html"
+alt="Plot C">
+</map>
+
+</div>
+
+<br><br>
+
+<footer style="border-top:1px solid #357a38; margin-top:10px;">
+<p>&copy; 2026 Irrigation Advisory System.</p>
+</footer>
+
+</body>
+</html>

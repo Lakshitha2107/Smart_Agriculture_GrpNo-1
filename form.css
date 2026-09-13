@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(12, 92, 12);
+    font-size: 2.5rem;
+}
+
+.registration-form {
+    padding: 30px;
+    margin-left: 32%;
+    margin-top: 80px;
+    width: fit-content;
+    height: auto;
+    background-color: rgb(169, 244, 202);
+    border-radius: 25px;
+}
+
+.form-input {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    outline: none;
+    border: none;
+}
+
+.form-label {
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+.dropdown {
+    padding: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.submit {
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: none;
+    background-color: rgb(5, 87, 5);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.registration-form fieldset {
+    border: 2px solid rgb(5, 87, 5);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.registration-form legend {
+    padding: 0 10px;
+    color: rgb(5, 87, 5);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-input:focus {
+    border: 2px solid rgb(5, 87, 5);
+    border-radius: 8px;
+}
+
+.submit:hover {
+    background-color: rgb(12, 130, 12);
+    border-radius: 20px;
+}

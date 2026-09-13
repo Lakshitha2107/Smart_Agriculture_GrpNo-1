@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section2 h2 {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    height: 30px;
+    background-color: #d8f7de;
+}
+
+.section2 p {
+    margin: 30px;
+    font-size: 20px;
+    width: fit-content;
+    padding: 7px;
+    background-color: #d8f7de;
+    border: 2px solid rgb(16, 56, 3);
+}
+
+.section2 p,
+.section2 dt {
+    transition: 0.3s;
+}
+
+.section2 p:hover,
+.section2 dt:hover {
+    box-shadow: 4px 4px 8px green;
+    transform: scale(1.03);
+}
+
+.section2 ol li {
+    font-size: 1rem;
+    margin-left: 100px;
+}
+
+.sensor {
+    list-style-type: circle;
+    font-size: 1rem;
+    margin-left: 100px;
+}
+
+dt {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: fit-content;
+    height: 30px;
+    padding: 4px;
+    border: 2px solid rgb(16, 56, 3);
+}
+
+dd {
+    margin-left: 80px;
+    font-size: 18px;
+}
+.image-box {
+    width: 300px;
+    height: 200px;
+    background-color: #d8f7de;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px green;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px darkgreen;
+}
+
+.image-box img {
+    width: 300px;
+    height: 180px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.image-box img:hover {
+    opacity: 0.8;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+
+h1 {
+    padding: 30px;
+    width: auto;
+    height: 30px;
+    background-color: #d8f7de;
+}
+.offer {
+    width: fit-content;
+    margin: 30px;
+    padding: 15px 25px;
+    background-color: #035d10;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 0 0 10px green;
+    border-radius: 10px;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px green;
+    }
+
+    to {
+        box-shadow: 0 0 20px green;
+    }
+}

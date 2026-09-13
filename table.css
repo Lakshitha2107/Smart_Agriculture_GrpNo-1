@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(12, 92, 12);
+    font-size: 2.5rem;
+}
+
+.heading-table {
+    background-color: #d8f7de;
+}
+
+tr:nth-child(2n) {
+    background-color: #d8f7de;
+}
+
+th,
+td {
+    text-align: center;
+}
